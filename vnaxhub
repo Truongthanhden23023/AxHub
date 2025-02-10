@@ -35,8 +35,7 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
-
-local label15 = Tab:CreateTab("Default keybind: (k)")
+local label = Tab:CreateTab("Default Keybind: {K}")
 
 local Button = Tab:CreateButton({
    Name = "Load IY",
